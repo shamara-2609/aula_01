@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
 
-  stdout.write("Digite sua renda: ");
+  stdout.write("Digite sua renda: "); 
   double renda = double.parse(stdin.readLineSync()!);
 
   stdout.write("Digite seu saldo: ");
